@@ -1,3 +1,5 @@
+"""Test cases for the console module."""
+
 from unittest.mock import Mock
 
 import click.testing
@@ -27,6 +29,7 @@ def test_main_succeeds_in_production_env(runner: CliRunner) -> None:
 
 
 def test_main_succeedes(runner: CliRunner, mock_requests_get: Mock) -> None:
+    """It exits with a status code of zero."""
     result = runner.invoke(console.main)
     assert result.exit_code == 0
 

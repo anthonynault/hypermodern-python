@@ -25,6 +25,13 @@ flake8-import-order = "^0.18.1"
 safety = "^1.9.0"
 mypy = "^0.770"
 pytype = {version = "^2020.5.13", python = "3.7"}
+flake8-docstrings = "^1.5.0"
+typeguard = "^2.7.1"
+flake8-annotations = "^2.1.0"
+darglint = "^1.4.0"
+xdoctest = "^0.12.0"
+sphinx = "^3.0.4"
+sphinx-autodoc-typehints = "^1.10.3"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]

@@ -1,3 +1,5 @@
+"""test fixtures for the hypermodern_python package."""
+
 from unittest.mock import Mock
 
 from _pytest.config import Config
